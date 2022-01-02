@@ -1,4 +1,7 @@
 *
+!/assets/
+!/assets/prod.json
+!/assets/dev.json
 !/.gitignore
 !/.env.example
 !/docker-compose.yaml
