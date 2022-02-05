@@ -6,7 +6,7 @@ networks:
     driver: "bridge"
 services:
   keycloak:
-    image: "jboss/keycloak:15.0.2"
+    image: "jboss/keycloak:16.1.1"
     restart: "unless-stopped"
     environment:
       KEYCLOAK_FRONTEND_URL: "https://${host}/auth"
